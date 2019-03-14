@@ -5,11 +5,10 @@ Nanyang Ye, Krzysztof Wolski and Rafal K.Mantiuk. Predicting visible image diffe
 Requirements:
 Tensorflow 1.10.1
 
-The viewing condition dataset and HDR-VDP pre-training dataset can be obtained from   /anfs/gfxdisp/visibility_datasets/
-The trained weights can be downloaded from  /anfs/gfxdisp/visibility_datasets/
+The viewing condition dataset and trained weight can be obtained from   /anfs/gfxdisp/visibility_datasets/
 
 To RUN:
-python runPhotometric_CNN.py \\
+python runPhotometric_CNN.py \
 
  
 All rights reserved. If you find any part of this code useful, please cite the paper.
