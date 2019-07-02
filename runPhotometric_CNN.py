@@ -34,7 +34,7 @@ if(windowStep <= 0):
 
     
 #Loading net    
-ckpt = tf.train.get_checkpoint_state("save_checkpoint_np")
+ckpt = tf.train.get_checkpoint_state("DPVM_checkpoint")
 print(ckpt);
 saver = tf.train.import_meta_graph(ckpt.model_checkpoint_path + '.meta')
 print(saver);
